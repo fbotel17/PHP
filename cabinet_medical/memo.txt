@@ -1,0 +1,1 @@
+"<a href='../cabinet_medical/delete_med.php?id=".$donnees['numRPPS']."
