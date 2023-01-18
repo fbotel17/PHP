@@ -21,6 +21,10 @@
     <a href="TPphp/testBDD.php">testBDD</a>
     <p>TP 2:</p>
     <a href="TP2php/exo1.php">exo1</a>
+    <a href="TP2php/exo2.php">exo2</a>
+    <a href="TP2php/exo3.php">exo3</a>
+    <a href="TP2php/exoFinal.php">ExoFinal</a>
+    
 
 </body>
 </html>
