@@ -87,7 +87,11 @@ function moyenne($note)
     return $somme;
 }
 
-function formulaire()
+function formulaireConnexion($MotDePasse)
 {
+    if(isset($_POST["Deconnexion"]))
+    {  
+        session_destroy();
+        session_unset();
 
 }
