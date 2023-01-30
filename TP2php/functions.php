@@ -89,9 +89,36 @@ function moyenne($note)
 
 function formulaireConnexion($MotDePasse)
 {
-    if(isset($_POST["Deconnexion"]))
-    {  
+    if (isset($_POST["Deconnexion"])) {
         session_destroy();
         session_unset();
+    }
 
+    if (isset($_POST['envoyer']) && $_POST['password'] == $MotDePasse) {
+        echo 'vous etes connecté';
+        ?>
+        <form action="" method="post">
+            <input type="submit" value="disconnect" name="disconnect">
+        </form>
+    <?php
+    return true;
+    } else {
+        ?>
+        <form action="" method="post">
+            <label>password :</label>
+            <input type="text" id="password" name="password">
+
+            <input type="submit" value="envoyer" name="envoyer">
+        </form>
+        <?php
+            if (isset($_POST['envoyer'])) {
+                
+                if ($_POST['password'] != $MotDePasse) {
+                    echo "mauvais password";
+                    return false;
+                }
+            }
+    }
 }
+
+?>
