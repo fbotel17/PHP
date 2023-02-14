@@ -24,6 +24,12 @@
     <a href="TP2php/exo2.php">exo2</a>
     <a href="TP2php/exo3.php">exo3</a>
     <a href="TP2php/exoFinal.php">ExoFinal</a>
+    <p>TP 3:</p>
+    <a href="TP3php/exo1.php">exo1</a>
+    <a href="TP3php/exo2.php">exo2</a>
+    <a href="TP3php/exo3.php">exo3</a>
+    <a href="TP3php/exo4.php">exo4</a>
+    <a href="TP3php/exo5.php">exo5</a>
     
 
 </body>

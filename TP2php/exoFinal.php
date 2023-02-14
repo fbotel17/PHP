@@ -16,6 +16,10 @@
     if(formulaireConnexion($MotDePasse)==true)
     {
         echo "lien secret";
+        ?>
+        <a href="http://google.com/" target="_blank">
+        </a>
+        <?php
     }
     
 ?>
