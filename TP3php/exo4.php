@@ -24,7 +24,7 @@
     ?>
 
     <pre>
-    require("class/personnage3.php");
+    require("class/personnage4.php");
 
     
     class personnage{
