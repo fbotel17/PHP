@@ -1,4 +1,4 @@
-<!-- calcul aire et preimetre cercle-->
+<!-- exo3-->
 <!DOCTYPE html>
 <html>
 

@@ -5,7 +5,7 @@ MaDiv = document.getElementById("button");
 MaDiv.addEventListener("click", affiche);
 
 function additionne(x){
-    return x*2;
+    return x+2;
 }
 
 function affiche(evenement){
