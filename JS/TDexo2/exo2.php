@@ -1,10 +1,10 @@
-<!-- calcul aire et preimetre rectangle-->
+<!-- calcul aire et preimetre cercle-->
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
-    <title>Exo1</title>
+    <title>Exo2</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
