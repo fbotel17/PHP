@@ -30,16 +30,41 @@ var contenuAPI = document.getElementById("contenuAPI");
 
 //Exo5
 
-fetch('donneMoiLaTailleDeTibo.php', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-    key1: 'value1',
-    key2: 'value2'
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
-.catch(error => console.error(error))
+//method GET
+
+/*
+function mafunction() {
+    fetch('donneMoiLaTailleDeTibo.php?key1="Taille : "&key2="30"', {
+        method: 'GET'
+    }).then((resp) => resp.json()).then(function (data) {
+        console.log(data);
+        contenuAPI.innerHTML = data;
+        alert(data);
+    }
+    ).catch(function (error) {
+        console.log(error);
+    })
+}
+*/
+
+//method POST
+
+function mafunction() {
+    fetch('donneMoiLaTailleDeTibo.php',{
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          key1: 'Taille :',
+          key2: '80 cm'
+        })
+      }).then((resp) => resp.json()).then(function (data) {
+        console.log(data);
+        contenuAPI.innerHTML = data;
+        alert(data);
+    }
+    ).catch(function (error) {
+        console.log(error);
+    })
+}
